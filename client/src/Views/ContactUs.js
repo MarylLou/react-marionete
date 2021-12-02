@@ -10,7 +10,7 @@ export default function ContactUs() {
         "service_edm3age",
         "template_9qegolg",
         e.target,
-        "userg_bel0XnHVor5z3ZF7tHHU0"
+        "user_bel0XnHVor5z3ZF7tHHU0"
       )
       .then(
         (result) => {
@@ -32,7 +32,7 @@ export default function ContactUs() {
             <h1 className="text-2xl text-gray-600 md:text-3xl">Contactez</h1>
             <h1 className="text-2xl text-purple-300 font-bold md:text-3xl" style={{ fontFamily: "Dancing Script" }}>Lulu MarionNette</h1>
             <p className="mt-4">
-            Une question? Une suggestion?<br />
+            Une pièce préférée?  Un petit chouchou?<br />
             N'hésitez pas à compléter le formulaire ci-dessous.
             </p>
         </div>

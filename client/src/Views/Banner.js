@@ -6,21 +6,13 @@ function Banner() {
         <div className="bg-white lg:flex lg:shadow-lg lg:rounded-lg">
             <div className="p-12 text-center">
                 <h2 className="text-2xl text-purple-300 font-bold md:text-3xl">Mon manège à moi</h2>
-                <p className="mt-4"> Tu me fais tourner la tête, Mon manège à moi c'est toi. Je suis toujours à la fête, Quand tu me tiens dans tes bras. Je ferais le tour du monde, Ça ne tourn'rait pas plus qu'ça. La Terre n'est pas assez ronde, Pour m'étourdir autant qu'toi.</p>
+                <p className="mt-4"> Venez décrouvrir la gamme de bracelets LuluMarionNette.
+Chaque piéce à l’esthétique ultra soignée et féminine est une création unique.
+Si l'une d'entre elles vous inpire, contactez LuluMarionNette pour plus d'information sur le bijoux de votre choix.
+Les prix mentionnés dans cet article le sont à titre indicatif et ils sont susceptibles d’évoluer.</p>
             </div>
         </div>
     </section>
-
-       
-        // <div className="mt-10 mb-10 text-center" style={{maxWidth:"950"}}>
-        //     <h1 className="text-4xl mb-8">Mon manège à moi</h1>
-        //     <p className="text-2xl italic leading-normal">
-        //     Tu me fais tourner la tête, Mon manège à moi c'est toi
-        //     Je suis toujours à la fête, Quand tu me tiens dans tes bras<br />
-        //     Je ferais le tour du monde, Ça ne tourn'rait pas plus qu'ça<br />
-        //     La Terre n'est pas assez ronde, Pour m'étourdir autant qu'toi
-        //     </p>
-        // </div>
     );
   }
 

@@ -1,8 +1,9 @@
 import { useState, useRef } from "react"
 import { uploadFile } from "react-s3"
 import axios from "axios"
-import * as dotenv from 'dotenv';
+import dotenv from 'dotenv';
 dotenv.config();
+require('dotenv').config();
 
 let url = null;
 
@@ -32,11 +33,12 @@ export default function UploadProductForm() {
   }
 
   const config = {
-    bucketName:process.env.AWS_BUCKET_NAME,
-    region:process.env.AWS_REGION,
-    accessKeyId:process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey:process.env.AWS_SECRET_ACCESS_KEY
+    bucketName:process.env.REACT_APP_AWS_BUCKET_NAME,
+    region:process.env.REACT_APP_AWS_REGION,
+    accessKeyId:process.env.REACT_APP_AWS_ACCESS_KEY_ID,
+    secretAccessKey:process.env.REACT_APP_AWS_SECRET_ACCESS_KEY
   }
+  // console.log(config)
 
   const fileInput = useRef()
 

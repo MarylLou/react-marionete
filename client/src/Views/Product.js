@@ -29,7 +29,7 @@ function Product() {
   if (product.data) {
     content = (
       // container padding
-      <div className="max-w-3xl mx-auto pt-20 pb-20 grid md:grid-cols-3">
+      <div className="max-w-3xl mx-auto pt-20 pb-20 grid md:grid-cols-2">
         <div className="p-3 max-auto">
           <img
             className="
@@ -71,9 +71,9 @@ function Product() {
           <p
             className="lg:text-1xl
               xl:text-2xl">
-            Description
+            Description à venir...
           </p>
-          <p>{product.data.description}</p>
+          {/* <p>{product.data.description}</p> */}
           <br />
           <p>{product.data.descriptionDetails}</p>
           <br />

@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function ProductCard(props) {
+export default function ProductCard(props) {
+  
   return (
     <div className="max-w-sm overflow-auto rounded-lg shadow-xl bg-white p-3">
       <Link to={`/product/${props.product._id}`}>
@@ -31,5 +32,3 @@ function ProductCard(props) {
     </div>
   );
 }
-
-export default ProductCard;

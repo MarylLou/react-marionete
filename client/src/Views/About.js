@@ -8,9 +8,8 @@ function About() {
                     <h1 className="text-2xl text-gray-600 md:text-3xl">Confidences de</h1>
                     <h1 className="text-2xl text-purple-300 font-bold md:text-3xl" style={{ fontFamily: "Dancing Script" }}>Lulu MarionNette</h1>
                     <p className="mt-4">
-                        Suite au succès d'une collection née d'un hobby, il y a á peine quelques lunes,<br />
-                        LuluMarionNette vous offre une vaste gamme de bijoux fait main<br />
-                        Une creaction unique pour des souvenirs inoubliables.
+                    L'histoire de LuluMarionNette a commencé par la créations de ses propres bijoux pour assortir à ses tenues. Ses amies et collègues étaient épatées et c'est comme cela que LuluMarionNette a commené à créer pour les autres.<br/>Ce site n'est pas une e-shop, le site de LuluMarionNette vous permet uniquement de découvrir ses collections.<br />
+Si vous aves une pièce préférée, un petit chouchou, n'hésitez pas à prendre contact par email.
                     </p>
                 </div>
             </div>

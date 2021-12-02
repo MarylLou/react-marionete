@@ -61,7 +61,7 @@ function Home() {
             />
             <Carousel.Caption>
               <h3>{`${product.name}`}</h3>
-              <p>{`${product.description}`}</p>
+              {/* <p>{`${product.description}`}</p> */}
             </Carousel.Caption>
           </Carousel.Item>
         ))}

@@ -45,16 +45,22 @@ function Header() {
                   Contact
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="./UploadProductForm"
                   className="my-1 text-sm text-gray-700 hover:text-purple-300 md:mx-4 md:my-0">
                   Admin
                 </Link>
-              </li>
+              </li> */}
+              {/* <li>
+                <Link
+                  to="./Dashboard"
+                  className="my-1 text-sm text-gray-700 hover:text-purple-300 md:mx-4 md:my-0">
+                  Dashboard
+                </Link>
+              </li> */}
             </ul>
             </div>
-
           </div>
         </div>
       </div>
